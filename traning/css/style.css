@@ -1,0 +1,150 @@
+body{
+
+font:15px/1.5 Arial,Helvetica,san-serif;
+padding:0px;
+margin:0px;
+background-color:#f4f4f4;
+}
+/*Global*/
+.container
+{
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+ul
+{
+margin:0px;
+padding:0px;
+}
+/*Header*/
+header{
+background:#35424a;
+color:#ffffff;
+padding-top:30px;
+min-height:70px;
+border-bottom:#e8491d 3px solid;
+}
+header a
+{
+color:#ffffff;
+text-decoration:none;
+text-transform: uppercase;
+
+}
+header ul
+{
+margin:0;
+padding:0;
+}
+header li
+{
+float:left;
+display: inline;
+padding:0 20px 0 20px;
+}
+header #branding
+{
+float:left;
+}
+header #branding h1
+{
+margin:0;
+}
+header nav
+{
+margin-top:10px;
+float: right;
+}
+header .highlight, header .current a
+{
+color:#e8491d;
+font-weight: bold;
+}
+header a:hover{
+color:#cccccc;
+font-weight:bold;
+}
+/*Showcase*/
+#showcase
+{
+min-height:400px;
+background:url('../image/maze.jpeg') no-repeat;
+color:black;
+text-align:center;
+}
+#showcase h1
+{
+margin-top:100px;
+font-size:40px;
+}
+#showcase p
+{
+font-size:17px;
+font-family:tahoma;
+}
+#newsletter
+{
+padding:15px;
+color:#ffffff;
+background-color:#35424a;
+}
+#newsletter input
+{
+padding:10px;
+border:none;
+outline:none;
+margin-right:10px;
+}
+#newsletter button
+{
+padding:9px;
+background-color:orange;
+font-family:tahoma;
+border:none;
+outline:none;
+color:#ffffff;
+}
+#newsletter form
+{
+text-align: center;
+margin-bottom:20px;
+}
+#boxes
+{
+padding-top:30px;
+background-color:white;
+}
+#boxes .box
+{
+float:left;
+width:30%;
+padding:17px;
+text-align: center;
+}
+#boxes .box img
+{
+width:90px;
+}
+footer
+{
+padding:20px;
+color:#ffffff;
+background-color:#e8491d;
+text-align:center;
+font-family:tahoma;
+font-size:17px;
+}
+@media(max-width: 768px) {
+header #branding,
+header nav,
+header nav li,
+#newlsetter h1,
+#newsletter form,
+#boxes .box,
+article#main-col,
+aside#sidebar{
+float: none;
+text-align: center;
+width: 100%
+}
